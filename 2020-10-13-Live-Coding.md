@@ -37,3 +37,36 @@ In order to overcome those obstacles and to accelerate both parsing and end-to-e
 ### Part 4: Some announcements
 
 We will announce some upcoming events as well as some new features that we intend to work on during the upcoming weeks.
+
+## Announcements
+
+### Hackathon: Bring Your Own Dataset (BYOD)
+
+**When:** Tuesday October 20th 2020 from 9AM to 4PM (GMT-4)
+
+**Where:** http://tinyurl.com/IceData 
+
+[Links to datasets]( https://github.com/Tessellate-Imaging/Monk_Object_Detection/tree/master/application_model_zoo#training-and-inference-examples-with-pretrained-models)
+
+**Setting**
+- Users could bring their own datasets to parse and to train.
+
+- They could team-up with other Airctic members or invite their friends/colleagues
+
+- We will be there to help you and to guide you
+
+- If you wish, it would be great if you could help other users
+
+- We will organize the hackathon into several chat/video rooms
+
+    * Main Room
+
+    * Several Rooms where users could gather and work together
+
+    * Help Room: at any moment, users can step in this room to ask for help. Whenever Lucas and Farid are available will join this room to help. Any other Airctic member is encoutaged to join to volunteer helping.
+
+### Adding new features
+
+We will soon start working on creating an API that will enable us to create down-scaled datasets that can be train more quickly thanks to their reduced size.
+
+Example: We have the [TACO dataset](https://github.com/pedropro/TACO). It size est greater than 3GB. We would like to reduce all the image sizes to, say, 640 (while prserving the ratio), and save the new down-scaled dataset as a COCO dataset.
